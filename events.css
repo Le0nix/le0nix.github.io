@@ -2,7 +2,7 @@
     @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
     body {
 		padding: 25px 25px;
-		background-color: rgb(220, 220, 220);
+		background-color: rgb(62, 102, 176);
 	}
     
     .event-list {
@@ -10,6 +10,7 @@
 		font-family: 'Lato', sans-serif;
 		margin: 0px;
 		padding: 0px;
+		color: darkslateblue;
 	}
 	.event-list > li {
 		background-color: rgb(245, 245, 245);
@@ -22,7 +23,7 @@
 		display: inline-block;
 		width: 100%;
 		color: rgb(255, 255, 255);
-		background-color: rgb(62, 102, 176);
+		background-color: rgb(25, 61, 127);
 		padding: 5px;
 		text-align: center;
 		text-transform: uppercase;
