@@ -1,0 +1,298 @@
+@import url("//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+body {
+	padding: 25px 25px;
+	background-color: rgb(62, 102, 176);
+}
+
+.codropsheader {
+width: 100%;
+margin: 0 auto;
+text-align: left;
+padding: 1.4em;
+opacity: 0.7;
+visibility: visible;
+-webkit-transition: opacity 0.3s;
+transition: opacity 0.3s;
+}
+
+.codropsheader h1 {
+font-size: 2.125em;
+line-height: 1.3;
+margin: 0 0 0.6em 0;
+float: left;
+font-weight: 400;
+}
+
+.codropsheader > span {
+display: block;
+position: relative;
+z-index: 9999;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+padding: 0 0 0.6em 0.1em;
+}
+
+.codropsheader > span span:after {
+width: 30px;
+height: 30px;
+left: -12px;
+font-size: 50%;
+top: -8px;
+font-size: 75%;
+position: relative;
+}
+
+.codropsheader > span span:hover:before {
+content: attr(data-content);
+text-transform: none;
+text-indent: 0;
+letter-spacing: 0;
+font-weight: 300;
+font-size: 110%;
+padding: 0.8em 1em;
+line-height: 1.2;
+text-align: left;
+left: auto;
+margin-left: 4px;
+position: absolute;
+color: #47a3da;
+background: #fff;
+}
+
+.codropsheader nav {
+float: left;
+text-align: center;
+margin-left: 1.5em;
+display: block;
+}
+
+.codropsheader nav a {
+display: inline-block;
+position: relative;
+text-align: left;
+width: 2.5em;
+height: 2.5em;
+background: #47a3da;
+border-radius: 50%;
+margin: 0 0.1em;
+border: 3px solid #fff;
+}
+
+.codropsheader nav a > span {
+display: none;
+}
+
+.codropsheader nav a:hover:before {
+content: attr(data-info);
+color: #fff;
+position: absolute;
+width: 600%;
+top: 120%;
+text-align: right;
+right: 0;
+pointer-events: none;
+}
+
+.codropsheader nav a:hover {
+background: #fff;
+}
+
+.event-list {
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: darkslateblue;
+}
+.event-list > li {
+	background-color: rgb(245, 245, 245);
+	box-shadow: 0px 0px 5px rgb(51, 51, 51);
+	box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+	padding: 0px;
+	margin: 0px 0px 15px;
+}
+.event-list > li > time {
+	display: inline-block;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	background-color: rgb(25, 61, 127);
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+	background-color: rgb(25, 61, 127);
+}
+.event-list > li > time > span {
+	display: none;
+}
+.event-list > li > time > .day {
+	display: block;
+	font-size: 56pt;
+	font-weight: 100;
+	line-height: 1;
+}
+.event-list > li time > .month {
+	display: block;
+	font-size: 24pt;
+	font-weight: 900;
+	line-height: 1;
+}
+.event-list > li time > .year {
+	display: block;
+	font-size: 24pt;
+	font-weight: 300;
+	line-height: 1;
+}
+.event-list > li > img {
+	width: 100%;
+}
+.event-list > li > .info {
+	padding-top: 5px;
+	text-align: center;
+}
+.event-list > li > .info > .title {
+	font-size: 17pt;
+	font-weight: 700;
+	margin: 0px;
+}
+.event-list > li > .info > .desc {
+	font-size: 13pt;
+	font-weight: 300;
+	margin: 0px;
+}
+.event-list > li > .info > .sub {
+	font-size: 11pt;
+	font-weight: 300;
+	margin: 0px;
+}			
+.event-list > li > .info > ul,
+.event-list > li > .social > ul {
+	display: table;
+	list-style: none;
+	margin: 10px 0px 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+.event-list > li > .social > ul {
+	margin: 0px;
+}
+.event-list > li > .info > ul > li,
+.event-list > li > .social > ul > li {
+	display: table-cell;
+	cursor: pointer;
+	color: rgb(30, 30, 30);
+	font-size: 11pt;
+	font-weight: 300;
+	padding: 3px 0px;
+}
+.event-list > li > .info > ul > li > a {
+	display: block;
+	width: 100%;
+	color: rgb(30, 30, 30);
+	text-decoration: none;
+} 
+.event-list > li > .social > ul > li {    
+	padding: 0px;
+}
+.event-list > li > .social > ul > li > a {
+	padding: 3px 0px;
+} 
+.event-list > li > .info > ul > li:hover,
+.event-list > li > .social > ul > li:hover {
+	color: rgb(30, 30, 30);
+	background-color: rgb(200, 200, 200);
+}
+.facebook a,
+.twitter a,
+.google-plus a {
+	display: block;
+	width: 100%;
+	color: rgb(75, 110, 168) !important;
+}
+.twitter a {
+	color: rgb(79, 213, 248) !important;
+}
+.google-plus a {
+	color: rgb(221, 75, 57) !important;
+}
+.facebook:hover a {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(75, 110, 168) !important;
+}
+.twitter:hover a {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(79, 213, 248) !important;
+}
+.google-plus:hover a {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(221, 75, 57) !important;
+}
+
+@media (min-width: 768px) {
+	.event-list > li {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 150px;
+		padding: 0px;
+	}
+	.event-list > li > time,
+	.event-list > li > img  {
+		display: inline-block;
+	}
+	.event-list > li > time,
+	.event-list > li > img {
+		width: 120px;
+		float: left;
+	}
+	.event-list > li > .info {
+		background-color: rgb(245, 245, 245);
+		overflow: hidden;
+	}
+	.event-list > li > time,
+	.event-list > li > img {
+		width: 150px;
+		height: 150px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.event-list > li > .info {
+		position: relative;
+		height: 100px;
+		text-align: left;
+		padding-right: 40px;
+	}	
+	.event-list > li > .info > .title, 
+	.event-list > li > .info > .desc,
+	.event-list > li > .info > .sub {
+		padding: 0px 10px;
+	}
+	.event-list > li > .info > ul {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+	}
+	.event-list > li > .social {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		display: block;
+		width: 40px;
+	}
+	.event-list > li > .social > ul {
+		border-left: 1px solid rgb(230, 230, 230);
+	}
+	.event-list > li > .social > ul > li {			
+		display: block;
+		padding: 0px;
+	}
+	.event-list > li > .social > ul > li > a {
+		display: block;
+		width: 40px;
+		padding: 10px 0px 9px;
+	}
+}
