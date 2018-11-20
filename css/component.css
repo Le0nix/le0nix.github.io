@@ -8,7 +8,7 @@ html, body,
 }
 
 body {
-	overflow-y: scroll;
+	overflow-y: hidden;
 	background: #333;
 }
 
