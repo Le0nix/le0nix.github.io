@@ -3,6 +3,7 @@
     body {
 		padding: 25px 25px;
 		background-color: rgb(62, 102, 176);
+		overflow-x: hidden;
 	}
 	
 	.codropsheader {
